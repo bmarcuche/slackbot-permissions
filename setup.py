@@ -11,8 +11,21 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 # Read requirements
-with open("requirements.txt", "r", encoding="utf-8") as fh:
-    requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
+requirements = []
+try:
+    with open("requirements.txt", "r", encoding="utf-8") as fh:
+        requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
+except FileNotFoundError:
+    # Fallback to hardcoded requirements if file not found
+    requirements = [
+        "slack-bolt>=1.18.0",
+        "slack-sdk>=3.21.0",
+        "pydantic>=2.0.0",
+        "typing-extensions>=4.5.0",
+        "structlog>=23.1.0",
+        "prometheus-client>=0.16.0",
+        "cryptography>=41.0.0",
+    ]
 
 setup(
     name="slackbot-permissions",
