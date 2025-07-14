@@ -240,7 +240,7 @@ else:
 
 ### Repository Structure
 ```
-slack-permission-system/
+slackbot-permissions/
 ├── src/slack_permissions/     # Core package code
 ├── tests/                     # Comprehensive test suite
 ├── examples/                  # Usage examples
@@ -261,7 +261,7 @@ slack-permission-system/
 ```bash
 # Install from source
 git clone <repository>
-cd slack-permission-system
+cd slackbot-permissions
 pip install -e ".[dev]"
 
 # Run tests
@@ -271,8 +271,8 @@ pytest --cov=slack_permissions
 python -m build
 
 # Deploy with Docker
-docker build -t slack-permission-system .
-docker run slack-permission-system
+docker build -t slackbot-permissions .
+docker run slackbot-permissions
 ```
 
 ### Maintenance

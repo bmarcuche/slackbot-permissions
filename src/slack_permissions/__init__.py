@@ -50,7 +50,7 @@ __all__ = [
 ]
 
 # Package metadata
-__title__ = "slack-permission-system"
+__title__ = "slackbot-permissions"
 __description__ = "Production-ready permission management system for Slack bots"
-__url__ = "https://github.com/bmarcuche/slack-permission-system"
+__url__ = "https://github.com/bmarcuche/slackbot-permissions"
 __license__ = "MIT"

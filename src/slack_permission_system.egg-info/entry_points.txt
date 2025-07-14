@@ -1,2 +1,0 @@
-[console_scripts]
-slack-permissions = slack_permissions.cli:main

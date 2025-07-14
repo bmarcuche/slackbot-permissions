@@ -328,7 +328,7 @@ Examples:
         """
     )
     
-    parser.add_argument("--version", action="version", version=f"slack-permission-system {__version__}")
+    parser.add_argument("--version", action="version", version=f"slackbot-permissions {__version__}")
     parser.add_argument("--log-level", choices=["DEBUG", "INFO", "WARNING", "ERROR"], default="INFO",
                        help="Set logging level")
     

@@ -7,22 +7,22 @@ This guide will help you get up and running with the Slack Permission System qui
 ### From PyPI (Recommended)
 
 ```bash
-pip install slack-permission-system
+pip install slackbot-permissions
 ```
 
 ### From Source
 
 ```bash
-git clone https://github.com/bmarcuche/slack-permission-system.git
-cd slack-permission-system
+git clone https://github.com/bmarcuche/slackbot-permissions.git
+cd slackbot-permissions
 pip install -e .
 ```
 
 ### Development Installation
 
 ```bash
-git clone https://github.com/bmarcuche/slack-permission-system.git
-cd slack-permission-system
+git clone https://github.com/bmarcuche/slackbot-permissions.git
+cd slackbot-permissions
 pip install -e ".[dev]"
 ```
 
@@ -330,8 +330,8 @@ logger.setLevel(logging.DEBUG)
 ### Getting Help
 
 - Check the [FAQ](faq.md)
-- Review [GitHub Issues](https://github.com/bmarcuche/slack-permission-system/issues)
-- Join our [Slack Community](https://slack-permission-system.slack.com)
+- Review [GitHub Issues](https://github.com/bmarcuche/slackbot-permissions/issues)
+- Join our [Slack Community](https://slackbot-permissions.slack.com)
 
 ## What's Next?
 
