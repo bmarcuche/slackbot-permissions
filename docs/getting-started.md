@@ -329,15 +329,19 @@ logger.setLevel(logging.DEBUG)
 
 ### Getting Help
 
-- Check the [FAQ](faq.md)
 - Review [GitHub Issues](https://github.com/bmarcuche/slackbot-permissions/issues)
-- Join our [Slack Community](https://slackbot-permissions.slack.com)
+- Create an issue for bugs or feature requests
 
-## What's Next?
+## Next Steps
 
-Now that you have the basics working, explore:
+You now have a working Slack Permission System! Here are some useful resources:
 
-- [Slack Groups Integration](slack-integration.md) for automatic user sync
-- [Advanced Permission Patterns](advanced-patterns.md) for complex scenarios
-- [Monitoring and Observability](monitoring.md) for production deployment
-- [Testing Your Bot](testing.md) for quality assurance
+- **[API Reference](api-reference.md)** - Complete API documentation and examples
+- **[Security Guide](security.md)** - Production security best practices and checklist
+
+For production deployment, consider:
+
+- Setting up proper logging and monitoring
+- Configuring user groups and permissions based on your team structure
+- Testing your permission logic thoroughly
+- Following the security guidelines in the Security Guide
