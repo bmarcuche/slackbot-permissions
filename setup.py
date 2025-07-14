@@ -15,14 +15,14 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="slack-permission-system",
+    name="slackbot-permissions",
     version="1.0.0",
     author="Bruno Marcuche",
     author_email="bruno.marcuche@gmail.com",
     description="Production-ready permission management system for Slack bots",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/bmarcuche/slack-permission-system",
+    url="https://github.com/bmarcuche/slackbot-permissions",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
@@ -67,8 +67,8 @@ setup(
     zip_safe=False,
     keywords="slack bot permissions security access-control devops automation",
     project_urls={
-        "Bug Reports": "https://github.com/bmarcuche/slack-permission-system/issues",
-        "Source": "https://github.com/bmarcuche/slack-permission-system",
-        "Documentation": "https://slack-permission-system.readthedocs.io/",
+        "Bug Reports": "https://github.com/bmarcuche/slackbot-permissions/issues",
+        "Source": "https://github.com/bmarcuche/slackbot-permissions",
+        "Documentation": "https://slackbot-permissions.readthedocs.io/",
     },
 )

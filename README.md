@@ -30,7 +30,7 @@ A production-ready, declarative permission management system for Slack bots with
 ## 📦 Installation
 
 ```bash
-pip install slack-permission-system
+pip install slackbot-permissions
 ```
 
 ## 🔧 Quick Start
