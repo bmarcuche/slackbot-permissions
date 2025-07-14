@@ -295,7 +295,6 @@ def handle_sensitive_command(message, say, client):
 - Read the [API Reference](api-reference.md) for detailed documentation
 - Check out [Examples](../examples/) for more usage patterns
 - Review [Security Guide](security.md) for production deployment
-- See [Advanced Features](advanced-features.md) for complex scenarios
 
 ## Troubleshooting
 
