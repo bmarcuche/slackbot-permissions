@@ -52,7 +52,7 @@ SLACK_BOT_TOKEN = os.getenv('SLACK_BOT_TOKEN')
 SLACK_SIGNING_SECRET = os.getenv('SLACK_SIGNING_SECRET')
 
 # Never hardcode tokens
-# BAD: token = "xoxb-your-token-here"
+# BAD: token = "xoxb-example-token-here"  # Never hardcode real tokens!
 # GOOD: token = os.getenv('SLACK_BOT_TOKEN')
 ```
 
@@ -127,4 +127,4 @@ except Exception as e:
 
 - [OWASP Security Guidelines](https://owasp.org/)
 - [Slack Security Best Practices](https://slack.com/security)
-- [GitHub Security Advisories](https://github.com/bmarcuche/slackbot-permissions/security/advisories)
+- [GitHub Security Advisories](https://github.com/your-org/slackbot-permissions/security/advisories)

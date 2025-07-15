@@ -1,3 +1,14 @@
+# Environment and configuration files
+.env
+.env.*
+!.env.example
+config.ini
+config.yaml
+config.json
+secrets.json
+secrets.*
+credentials.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,5 +138,25 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Security and sensitive files
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+.ssh/
+.aws/
+.gcp/
+
+# Local development files
+.vscode/settings.json
+.idea/workspace.xml
+*.local
 *.pyc
 __pycache__/

@@ -167,7 +167,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5
       with:
-        images: bmarcuche/slackbot-permissions
+        images: ${{ vars.DOCKER_REGISTRY || 'your-org' }}/slackbot-permissions
         tags: |
           type=ref,event=branch
           type=ref,event=pr

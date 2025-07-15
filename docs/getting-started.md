@@ -13,7 +13,7 @@ pip install slackbot-permissions
 ### From Source
 
 ```bash
-git clone https://github.com/bmarcuche/slackbot-permissions.git
+git clone https://github.com/your-org/slackbot-permissions.git
 cd slackbot-permissions
 pip install -e .
 ```
@@ -21,7 +21,7 @@ pip install -e .
 ### Development Installation
 
 ```bash
-git clone https://github.com/bmarcuche/slackbot-permissions.git
+git clone https://github.com/your-org/slackbot-permissions.git
 cd slackbot-permissions
 pip install -e ".[dev]"
 ```
@@ -200,7 +200,7 @@ The system respects these environment variables:
 
 ```bash
 # Slack configuration
-SLACK_BOT_TOKEN=xoxb-your-bot-token
+SLACK_BOT_TOKEN=xoxb-replace-with-your-actual-token
 SLACK_SIGNING_SECRET=your-signing-secret
 
 # Logging
@@ -328,7 +328,7 @@ logger.setLevel(logging.DEBUG)
 
 ### Getting Help
 
-- Review [GitHub Issues](https://github.com/bmarcuche/slackbot-permissions/issues)
+- Review [GitHub Issues](https://github.com/your-org/slackbot-permissions/issues)
 - Create an issue for bugs or feature requests
 
 ## Next Steps

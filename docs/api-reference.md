@@ -171,7 +171,7 @@ except PermissionError as e:
 
 ```bash
 # Required
-SLACK_BOT_TOKEN=xoxb-your-bot-token
+SLACK_BOT_TOKEN=xoxb-replace-with-your-actual-token
 SLACK_SIGNING_SECRET=your-signing-secret
 
 # Optional

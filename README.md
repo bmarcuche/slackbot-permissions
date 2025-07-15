@@ -33,6 +33,21 @@ A production-ready, declarative permission management system for Slack bots with
 pip install slackbot-permissions
 ```
 
+## ⚙️ Configuration
+
+The package uses environment variables for configuration. Create a `.env` file:
+
+```bash
+# Copy the example configuration
+cp .env.example .env
+
+# Edit with your values
+SLACK_BOT_TOKEN=xoxb-your-bot-token-here  # Replace with your actual token
+SLACK_SIGNING_SECRET=your-signing-secret  # Replace with your actual secret
+```
+
+For detailed configuration options, see the [Configuration Guide](docs/configuration.md).
+
 ## 🔧 Quick Start
 
 ```python

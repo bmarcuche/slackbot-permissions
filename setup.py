@@ -30,12 +30,12 @@ except FileNotFoundError:
 setup(
     name="slackbot-permissions",
     version="1.0.0",
-    author="Bruno Marcuche",
-    author_email="bruno.marcuche@gmail.com",
+    author=os.getenv("PACKAGE_AUTHOR", "Slackbot Permissions Contributors"),
+    author_email=os.getenv("PACKAGE_AUTHOR_EMAIL", "contributors@example.com"),
     description="Production-ready permission management system for Slack bots",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/bmarcuche/slackbot-permissions",
+    url=os.getenv("PACKAGE_URL", "https://github.com/your-org/slackbot-permissions"),
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
@@ -80,8 +80,8 @@ setup(
     zip_safe=False,
     keywords="slack bot permissions security access-control devops automation",
     project_urls={
-        "Bug Reports": "https://github.com/bmarcuche/slackbot-permissions/issues",
-        "Source": "https://github.com/bmarcuche/slackbot-permissions",
-        "Documentation": "https://slackbot-permissions.readthedocs.io/",
+        "Bug Reports": os.getenv("PACKAGE_BUG_REPORTS", "https://github.com/your-org/slackbot-permissions/issues"),
+        "Source": os.getenv("PACKAGE_SOURCE", "https://github.com/your-org/slackbot-permissions"),
+        "Documentation": os.getenv("PACKAGE_DOCS", "https://slackbot-permissions.readthedocs.io/"),
     },
 )
